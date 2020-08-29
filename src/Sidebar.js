@@ -8,14 +8,14 @@ import VideoLibraryIcon from "@material-ui/icons/VideoLibrary";
 import ExpandMoreOutlinedIcon from "@material-ui/icons/ExpandMoreOutlined";
 import "./Sidebar.css";
 import SidebarRaw from "./SidebarRaw";
+import { useStateValue } from "./StateProvider";
 
 function Sidebar() {
+  const [{ user }, dispatch] = useStateValue();
+
   return (
     <div className="sidebar">
-      <SidebarRaw
-        src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Bangla_Wikipedia_Workshop_at_MU%2C_Sylhet56.JPG"
-        title="Elias"
-      />
+      <SidebarRaw src={user.photoURL} title={user.displayName} />
       <SidebarRaw
         Icon={LocalHospitalIcon}
         title="Covid-19 Information center"

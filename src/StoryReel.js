@@ -8,7 +8,7 @@ function StoryReel() {
       <Story
         image="https://in.bmscdn.com/iedb/artist/images/website/poster/large/priya-prakash-varrier-1090347-12-02-2018-04-33-40.jpg?1"
         profileSrc="https://in.bmscdn.com/iedb/artist/images/website/poster/large/priya-prakash-varrier-1090347-12-02-2018-04-33-40.jpg?1"
-        title="Promi"
+        title="Samanta"
       />
       <Story
         image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQ2tWq4FFUZvo67qmHh4zxBY87xdHhdwcJ2g&usqp=CAU"
