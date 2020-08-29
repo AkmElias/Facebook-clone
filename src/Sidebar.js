@@ -11,7 +11,7 @@ import SidebarRaw from "./SidebarRaw";
 import { useStateValue } from "./StateProvider";
 
 function Sidebar() {
-  const [{ user }, dispatch] = useStateValue();
+  const [{ user }] = useStateValue();
 
   return (
     <div className="sidebar">
