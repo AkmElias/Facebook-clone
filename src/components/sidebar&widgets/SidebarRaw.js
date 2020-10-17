@@ -1,5 +1,6 @@
 import React from "react";
 import { Avatar } from "@material-ui/core";
+
 import "./SidebarRaw.css";
 
 function SidebarRaw({ src, Icon, title }) {

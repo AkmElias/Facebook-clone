@@ -1,14 +1,15 @@
 import React from "react";
+
 import "./App.css";
-import Header from "./Header";
-import Sidebar from "./Sidebar";
-import Feed from "./Feed";
-import Widgets from "./Widgets";
-import Login from "./Login";
-import { useStateValue } from "./StateProvider";
+import Header from "./home/Header";
+import Sidebar from "./sidebar&widgets/Sidebar";
+import Feed from "./home/Feed";
+import Widgets from "./sidebar&widgets/Widgets";
+import Login from "./auth/Login";
+import { useStateValue } from "../globalState/StateProvider";
 
 function App() {
-  const [{ user }, dispatch] = useStateValue();
+  const [{ user }] = useStateValue();
 
   return (
     <div className="app">

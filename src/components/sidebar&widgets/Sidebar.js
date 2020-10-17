@@ -6,9 +6,10 @@ import ChatIcon from "@material-ui/icons/Chat";
 import StoreFrontIcon from "@material-ui/icons/Storefront";
 import VideoLibraryIcon from "@material-ui/icons/VideoLibrary";
 import ExpandMoreOutlinedIcon from "@material-ui/icons/ExpandMoreOutlined";
+
 import "./Sidebar.css";
 import SidebarRaw from "./SidebarRaw";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../../globalState/StateProvider";
 
 function Sidebar() {
   const [{ user }] = useStateValue();
